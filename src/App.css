@@ -35,6 +35,21 @@
   background-color: #202123;
 }
 
+.chat-input-holder {
+  padding: 12px;
+}
+
+.chat-input-text-area{
+  background-color: #40414f;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  color: white;
+  margin: 12px;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+  width: 95%;
+}
 .chatbox {
   flex: 1;
   border: 1px solid white;
