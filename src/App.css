@@ -36,7 +36,11 @@
 }
 
 .chat-input-holder {
-  padding: 12px;
+  padding: 24px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .chat-input-text-area{
@@ -45,6 +49,7 @@
   border-radius: 5px;
   padding: 12px;
   color: white;
+  font-size: 1.25pm;
   margin: 12px;
   outline: none;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
@@ -53,6 +58,7 @@
 .chatbox {
   flex: 1;
   border: 1px solid white;
+  position: relative;
 }
 
 .App-logo {
@@ -81,6 +87,38 @@
   color: #61dafb;
 }
 
+.chat-log{
+  padding: 12px;
+  text-align: left;
+}
+
+.chat-message{
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 480px;
+  background: white;
+}
+
+.chat-message-center{
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.avatar{
+  display: flex;
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.message{
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
