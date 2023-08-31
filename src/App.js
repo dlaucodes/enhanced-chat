@@ -25,6 +25,17 @@ function App() {
 
             </div>
           </div>
+             <div className="chat-message chatgpt">
+            <div className="chat-message-center">
+              <div className="avatar chatgpt">
+                AI
+              </div>
+              <div className="message">
+                i am an ai
+              </div>
+
+            </div>
+          </div>
         </div>
         <div className="chat-input-holder">
           <textarea className="chat-input-text-area" placeholder="" rows="1">
