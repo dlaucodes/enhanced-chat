@@ -88,31 +88,36 @@
 }
 
 .chat-log{
- 
+  border: 1px solid yellow;
   text-align: left;
+  width: 100%;
 }
 
 .chat-message.chatgpt{
-  padding: 12px;
-  
+  border: 1px solid green;
   background: rgba(255, 255, 255, 0.1);
   display: flex;
+  justify-content: flex-start;
   
 }
 
 .chat-message{
   padding: 12px;
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
 }
 
 .chat-message-center{
-  max-width: 640px;
+  
   margin-left: auto;
   margin-right: auto;
-  padding-left: 24px;
   padding-right: 24px;
   padding: 12px;
   display: flex;
+  border: 1px solid red;
+  width: 100%;
 }
 .avatar{
   display: flex;
