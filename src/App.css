@@ -88,16 +88,16 @@
 }
 
 .chat-log{
-  border: 1px solid yellow;
   text-align: left;
   width: 100%;
+  /* border: 1px solid yellow; */
 }
 
 .chat-message.chatgpt{
-  border: 1px solid green;
   background: rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: flex-start;
+  /* border: 1px solid green; */
   
 }
 
@@ -110,14 +110,14 @@
 }
 
 .chat-message-center{
-  
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   padding-right: 24px;
   padding: 12px;
   display: flex;
-  border: 1px solid red;
   width: 100%;
+  /* border: 1px solid red; */
 }
 .avatar{
   display: flex;
@@ -140,8 +140,13 @@
 }
 
 .message{
-
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding-left: 20px;
+  /* border: 1px solid green; */
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
